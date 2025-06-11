@@ -1,0 +1,9 @@
+.post-it img{
+    width: 200px; 
+}
+.post-it{
+    background-color: beige;
+    display: inline-block;
+    margin: 24px;
+    padding: 24px;
+}
