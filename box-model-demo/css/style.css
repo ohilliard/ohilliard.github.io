@@ -1,0 +1,37 @@
+div {
+    border: 10px dashed orange;
+    /*
+        Margin short hand rule 
+
+        one value margin targets all four sides of an element.
+
+        Two value margin: The 1st value targets the top and the bottom, the 
+        second value targets the left and the right.
+
+        Three value margin: 1st value targets the top, 2nd value targets the 
+        left and the right, third value targets the bottom.
+
+        Four value margin: 1st value targets the top, 2nd value targets the 
+        bottom, 4th value targets the left. 
+    */
+    margin: 24px auto;
+    padding: 24px 36px;
+    background-color: beige;
+    width: 50%;
+}
+p{
+    background-color: pink;
+    width: 200px;
+    padding: 25px;
+    border: 2px solid red;
+    text-align: center;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+    
