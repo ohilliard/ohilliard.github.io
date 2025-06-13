@@ -12,3 +12,18 @@ p a {
 p.warning a {
     color: orange;
 }
+p.warning {
+    background-color: rgb(156, 233, 156);
+}
+ul a {
+    color:green;
+}
+ul a {
+    color: lime;
+}
+ul p a {
+    color: pink;
+}
+ul div a {
+    color: lavender;
+}
