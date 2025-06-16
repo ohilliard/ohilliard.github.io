@@ -1,0 +1,26 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+.display, .lung{
+    margin: 80px 12px 0px;
+    border: 10px outset black;
+    width: 120px;
+    display: inline-block;
+}
+.display img {
+    width: 100%;
+    display: block;
+}
+
+.lung img {
+    width: 100%;
+    display: block;
+}
+#lung1 {
+    background-color: whitesmoke;
+}
