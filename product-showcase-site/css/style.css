@@ -1,0 +1,39 @@
+.berries{
+    box-sizing: border-box
+ }
+ body {
+    font-family: sans-serif;
+    margin: 0px;
+ }
+img {
+    width: 200px;
+}
+#fruit-2 {
+    background-color: plum;
+}
+.berries {
+    padding: 40px 0px;
+    margin: 0px auto;
+    width: 80%;
+    text-align: center;
+}
+#fruit-2 .berries img {
+    width: 100px;
+    display: block;
+    margin: 0px auto;
+}
+.fruit-bowl {
+    padding: 40px 0px;
+    margin: 0px auto;
+    width: 80%;
+    text-align: center;
+}
+#fruit {
+    background-color: plum;
+}
+.fruit-bowl h2 {
+    color: rgb(47, 94, 181);
+}
+.berries h2 {
+    color: rgb(47, 94, 181);
+}
