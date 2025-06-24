@@ -63,5 +63,13 @@ h1 {
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
-
+}
+#empire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#empire img {
+    width: 200px;
 }
