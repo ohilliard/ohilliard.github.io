@@ -71,5 +71,10 @@ h1 {
     gap: 50px;
 }
 #empire img {
-    width: 200px;
+    width: 100px;
+}
+#rv {
+     font-weight: bold;
+     text-decoration: underline;
+   
 }
