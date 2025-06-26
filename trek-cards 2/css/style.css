@@ -10,8 +10,9 @@
 
 .card-style-1 {
     background-color: rgb(227, 247, 227);
-    width: 350px;
-    margin: 10px;
+    max-width: 350px;
+    margin: 16px;
+    box-shadow: 4px 4px 9px #0008;
 }
 
 img {
@@ -32,4 +33,15 @@ img {
 p   {
     padding: 24px;
 }
+.card-style-1  h1,
+.card-style-1 p {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.card-style-1 h2 {
+    margin-top: 0px;
+    padding-top: 24px
+}
+
+
 
