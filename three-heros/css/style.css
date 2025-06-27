@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero-1 {
+    background-image: url("../images/hero2.jpg");
+    background-size: cover;
+    height: 100dvh;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#hero-1 h1 {
+    font-size: 200px;
+    color: rgb(24, 242, 195);
+    position: absolute;
+    right: 30%;
+    border: 5px solid rgb(180, 235, 97);
+    padding: 5px;
+}
+#hero-1 a {
+    position: absolute;
+    bottom: 2%;
+    left: 90%;
+     font-size: 20px;
+    background-color: rgba(180, 235, 97, 0.543);
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#hero-2 {
+    background-image: url("../images/hero1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+#hero-2 h2 {
+    background-color: rgba(68, 67, 72, 0.68);
+    font-size: 200px;
+    color: rgb(180, 235, 97);
+    border: 5px solid rgb(9, 178, 194);
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+#hero-2 h4 {
+       color: rgb(240, 243, 43);
+       background-color:rgba(68, 67, 72, 0.68) ;
+       font-size: 50px;
+       position: absolute;
+       bottom: 20px;
+       border: 5px solid rgb(253, 39, 182);
+       padding: 5px;
+}
+#hero-2 a {
+    position: absolute;
+    bottom: 2%;
+    left: 90%;
+    font-size: 20px;
+    background-color:rgba(180, 235, 97, 0.565);
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#hero-3 {
+    background-image: url("../images/pexels-pixabay-301920.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+#hero-3 h2 {
+    background-color: rgba(68, 67, 72, 0.68) ;
+    border: 5px solid rgb(180, 235, 97);
+    font-size: 160px;
+    color: rgb(9, 178, 194);
+    position: absolute;
+    top: 0%;
+    right: 20%;
+}
+.hero-content h4 {
+    background-color: rgba(68, 67, 72, 0.68) ;
+    border: 5px solid rgb(180, 235, 97);
+}
+#hero-3 h4 {
+       color: rgb(9, 178, 194);
+       font-size: 70px;
+       position: absolute;
+       bottom: 100px;
+       left: 0px;
+}
+#hero-3 a {
+    position: absolute;
+    bottom: 2%;
+    left: 80%;
+    font-size: 20px;
+    background-color: rgba(180, 235, 97, 0.592);
+    padding: 10px;
+    border-radius: 2px;
+}
