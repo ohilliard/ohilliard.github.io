@@ -7,3 +7,66 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+.pokemon-header {
+   display: flex;
+   justify-content: space-between;
+} 
+.card-style-3 {
+    background-color: yellow;
+    margin: 18px;
+    padding: 16px;
+    max-width: 350px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+img {
+    border: solid 6px gold;
+    width: 100;
+}
+.pokemon-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 18px;
+}
+.card-style-3 h2 {
+    margin: 0px;
+}
+.card-style-3 .details {
+    font-size: 12px;
+    text-align: center;
+    background: linear-gradient( to right, goldenrod, gold, goldenrod);
+    font-weight: bold;
+    font-style: italic;  
+    margin-top: 4px; 
+}
+.card-style-3 .attack {
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:8px 0px;
+    padding: 8px 0px 16px;
+    border-bottom: 2px solid black;
+}
+.card-style-3 .attack .description {
+    margin: 0px 4px;
+    font-size: 14px;
+}
+.card-style-3 .bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-style-3 .power {
+    font-size: 24px;
+    font-weight: bold;
+}
+.card-style-3 .data {
+    font-size: 11px;
+    font-weight: bold;
+    border: 2px solid goldenrod;
+    padding: 2px 8px;
+}
+
+
