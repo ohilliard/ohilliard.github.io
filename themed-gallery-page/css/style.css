@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+}
+.basic-grid-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+h3 { 
+     color: #e5a327;
+     font-size: 50px;
+}
+body {
+    background-color: rgb(187, 208, 220);
+}
+.basic-grid-gallery img {
+    height: 250px;
+    flex:1;
+    object-fit: cover;
+}
+#hero-1 {
+    background-image: url("../images/fisb.jpg");
+    background-size: cover;
+    height: 100dvh;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#hero-1 h1 {
+    font-size: 200px;
+    color: #e5a327;
+}
+#layout{
+    max-width: 1300px;
+    margin: 48px auto;
+    text-align: cent;}
