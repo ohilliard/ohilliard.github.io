@@ -78,6 +78,10 @@ p {
 #blue{
     background-color: rgb(101, 49, 243);
 }
+#blue img {
+    height: 100%;
+}
+
 #blue {   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
