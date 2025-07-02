@@ -5,3 +5,17 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#hero-1 {
+    background-image: url("../images/Untitled-1.jpg");
+    background-size: cover;
+    height: 100dvh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+h3 {
+    
+}
