@@ -66,20 +66,82 @@ img{
 #navbar .dropdown-menu a:hover {
     background: slateblue;
 }
-#hero-2 {
-    background-image: url("../images//download.png");
+.card {
+    color: rgb(207, 156, 249);
+    text-align: center;
+}
+#pecan {
+    background-color: white;
+    padding: 50px;
+    border-radius: 24px
+}
+#hero-1 {
+    background-image: url("../images/10533684.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
-    width: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     position: relative;
 }
-#hero-2 h2 {
-    text-align: center;
+.card2 img {
+    border-radius: 24px;
+    height: 50vh;
+    padding: 20px;
+}
+.card2 {
+        background-color: white;
+        padding: 20px;
+        border-radius: 24px;
+}
+h2{ background-color: #5d79b0;
+    padding: 10px;
+    border-radius: 24px; 
+    color: rgb(231, 227, 105);
+}
+p {
+    background-color: #5d79b0;
+    padding: 10px;
+    border-radius: 24px;
+    color: rgb(231, 227, 105);
+    font-weight: bold;
+}
+#hero-2 {
+    background-image: url("../images/10533684.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#navbar2 {
+    background-color: #5d79b0;
+    display: flex;
+    align-items: center;
+}
+
+#navbar2 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+#navbar2 a:hover {
+    background: linear-gradient(to top, #d1c5f1, #9da9c1);
+}
+
+#navbar2 #logo2 {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
 }
 @media screen and (min-width:325px){}
 
