@@ -10,7 +10,7 @@ img{
     object-fit: cover;
 }
 #navbar {
-    background: linear-gradient(to bottom, #d1c5f1, #9da9c1);
+    background-color: #5d79b0;
     display: flex;
     align-items: center;
 }
@@ -23,7 +23,7 @@ img{
 }
 
 #navbar a:hover {
-    background: linear-gradient(to top, #d1c5f1, #9da9c1);
+    background-color: #3b4c6f;
 }
 
 #navbar #logo {
@@ -58,22 +58,32 @@ img{
 }
 
 .dropdown-menu a {
-    background-color: #d1c5f1;
+    background-color: #4d6491;
     width: 100%;
     min-width: 200px;
 }
 
 #navbar .dropdown-menu a:hover {
-    background: slateblue;
+    background:  #3c4e72;
 }
-.card {
-    color: rgb(207, 156, 249);
+.hi {
     text-align: center;
 }
 #pecan {
     background-color: white;
     padding: 50px;
     border-radius: 24px
+}
+#herohome {
+    background-image: url("../images/10533684.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    position: relative;
 }
 #hero-1 {
     background-image: url("../images/10533684.jpg");
@@ -96,10 +106,22 @@ img{
         padding: 20px;
         border-radius: 24px;
 }
-h2{ background-color: #5d79b0;
+.card a { 
+    background-color: #5d79b0;
+    padding: 50px;
+    border-radius: 24px; 
+    color: rgb(231, 227, 105);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.hi { 
+    background-color: #5d79b0;
     padding: 10px;
     border-radius: 24px; 
     color: rgb(231, 227, 105);
+    text-align: center;
+    
 }
 p {
     background-color: #5d79b0;
