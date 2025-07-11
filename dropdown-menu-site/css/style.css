@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -70,9 +71,10 @@ img{
     text-align: center;
 }
 #pecan {
-    background-color: white;
-    padding: 50px;
     border-radius: 24px
+}
+.card a {
+ font-family: "Fascinate", system-ui;
 }
 #herohome {
     background-image: url("../images/10533684.jpg");
@@ -105,6 +107,14 @@ img{
         background-color: white;
         padding: 20px;
         border-radius: 24px;
+        border: solid 5px #5d79b0;
+        box-shadow: 0.5 #3b4c6f;    
+}
+.card2:hover {
+    background-color: #5d79b09b;
+}
+.card2:hover {
+    background-color: #5d79b09b;
 }
 .card a { 
     background-color: #5d79b0;
@@ -118,16 +128,18 @@ img{
 .hi { 
     background-color: #5d79b0;
     padding: 10px;
-    border-radius: 24px; 
-    color: rgb(231, 227, 105);
+    border-radius: 18px; 
+    border: solid;
+    color: white;
     text-align: center;
+    font-family: "Fascinate", system-ui;
     
 }
 p {
     background-color: #5d79b0;
     padding: 10px;
     border-radius: 24px;
-    color: rgb(231, 227, 105);
+    color:white;
     font-weight: bold;
 }
 #hero-2 {
@@ -146,18 +158,31 @@ p {
     display: flex;
     align-items: center;
 }
-
 #navbar2 a {
     display: inline-block;
     text-decoration: none;
     color: white;
     padding: 20px;
+    font-weight: bold;
 }
-
+#logo2 {
+    font-family: "Fascinate", system-ui;
+}
+#logo {
+    font-family: "Fascinate", system-ui;
+}
+.dropdown-container {
+    font-weight: bold;
+}
 #navbar2 a:hover {
-    background: linear-gradient(to top, #d1c5f1, #9da9c1);
+    background-color: #5d79b0;
 }
-
+.hi:hover {
+    background-color: #485f8b;
+}
+.card a:hover {
+    background-color: #485f8b;
+}
 #navbar2 #logo2 {
     margin-right: auto;
     font-weight: bold;
@@ -165,5 +190,17 @@ p {
     padding-top: 13px;
     padding-bottom: 12px;
 }
-@media screen and (min-width:325px){}
+@media screen and (max-width: 480px){
+    #navbar {
+          flex-direction: column;
+    }
+    #navbar2 {
+          flex-direction: column;
+    }
+    img {
+        width: 100%;
+        padding: 10px;
+    }
 
+    
+}
