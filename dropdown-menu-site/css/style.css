@@ -104,11 +104,14 @@ img{
     padding: 20px;
 }
 .card2 {
-        background-color: white;
-        padding: 20px;
-        border-radius: 24px;
-        border: solid 5px #5d79b0;
-        box-shadow: 0.5 #3b4c6f;    
+     background-color: white;
+     padding: 20px;
+     border-radius: 24px;
+     border: solid 5px #5d79b0;
+     box-shadow: 0.5 #3b4c6f;    
+}
+#pistacio-page .card2{
+    padding: 1px;
 }
 .card2:hover {
     background-color: #5d79b09b;
@@ -133,14 +136,49 @@ img{
     color: white;
     text-align: center;
     font-family: "Fascinate", system-ui;
+    text-decoration: none;
     
+}
+.hi a {
+    text-decoration: none;
+    color: white;
 }
 p {
     background-color: #5d79b0;
-    padding: 10px;
+    padding: 20px;
     border-radius: 24px;
     color:white;
     font-weight: bold;
+}
+ul {
+    background-color: #e4d41e;
+    padding: 20px;
+    border-radius: 24px;
+    color:#5d79b0;
+    font-weight: bold;
+    text-align: center;
+    border: #5d79b0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#pistacio .card2 {
+    border: solid 5px #e4d41e;
+}
+#pistacio-page h2{
+    background-color: #e4d41e;
+    color: #5d79b0;
+}
+#pistacio-page img {
+    width: 35vh;
+    height: 40vh;
+
+}
+#sideby {
+    display: flex;
+    margin: 0 ;
+    gap: 5%;
 }
 #hero-2 {
     background-image: url("../images/10533684.jpg");
@@ -153,6 +191,7 @@ p {
     align-items: center;
     position: relative;
 }
+
 #navbar2 {
     background-color: #5d79b0;
     display: flex;
@@ -163,6 +202,9 @@ p {
     text-decoration: none;
     color: white;
     padding: 20px;
+    font-weight: bold;
+}
+a {
     font-weight: bold;
 }
 #logo2 {
