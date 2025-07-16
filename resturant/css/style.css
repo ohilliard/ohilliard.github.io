@@ -12,9 +12,6 @@ img {
 body {
     background-color: #353c2c;
 }
-ol {
-    color: #c2c4ac;
-}
 #navbar {
     background-color: #21261b;
 }
@@ -70,37 +67,20 @@ ol {
     margin-right: 15px;
 }
 body {
-    background-color:white;
+    background-color:#c2c4ac;
 }
-
-.menu {
-    background-color:  #353c2c;
-    display: flex;
-    gap: 10px
-}
-ul {
-    padding: 0px;
+.single-c {
     text-align: center;
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
 }
  h3 {
     text-align: center;
     color: #c2c4ac;
     border-bottom: solid #c2c4ac;
 }
-#hero2{
-    background-image: url(../images/chivken3.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    text-align: right;
-    position: relative;
-    border-top: solid 10px #c2c4ac;
-    border-bottom: solid 10px #c2c4ac;
-}
+
 h1 {
     color:  #fffcfc;
     margin: 10px;
@@ -204,6 +184,32 @@ h2 {
     display: inline-block;
     margin-top: 15px;
 }
+.menu {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    flex-direction: column;
+}
+ul {
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+.menu h3{
+    color: #353c2c;
+    margin: 40px auto 5px;
+    border-bottom: 0.5px solid #353c2c;
+    width: max-content;
+    padding: 0px 25px 5px;
+    font-size: 2rem;
+}
+li {
+    color: #353c2c;
+    padding: 5px;
+}
+
 @media screen and (max-width: 768px){
     #navbar {
           flex-direction: column;
