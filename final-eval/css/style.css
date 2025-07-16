@@ -20,6 +20,9 @@ img {
 }
 .single-c {
     text-align: center;
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
 }
 #event{
     font-size: 40px;
