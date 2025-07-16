@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fascinate&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    border-image: linear-gradient(to right,rgb(244, 125, 35), grey,rgb(29, 29, 87), white, rgb(200, 48, 48)) 1;
+  
+}
+img {
+    width: 100%;
+}
+.single-c {
+    text-align: center;
+}
+#event{
+    font-size: 40px;
+    font-family:  "Bebas Neue", sans-serif;
+    padding-top: 25px;
+    color: #f5d76de9;
+ 
+}
+#time {
+    color: #f5d76de9;
+}
+#location {
+    color: #f5d76de9;
+}
+.sc2 {
+    text-align: center;
+}
+.teams {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    align-items: center; 
+    border: solid 10px black;
+}
+#vs {
+    margin: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family:  "Bebas Neue", sans-serif;
+    color: #f5d76de9
+}
+#ep h1 {
+    font-family:  "Bebas Neue", sans-serif;
+    color: #f5d76de9
+}
+.nameteam {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family:  "Bebas Neue", sans-serif;
+}
+#cb h2 {
+    font-weight: bold;
+    font-size: 30px;
+   border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    border-image: linear-gradient(to right,rgb(244, 125, 35), grey,rgb(29, 29, 87), white) 1; 
+}
+
+#cb {
+     color: rgb(244, 125, 35);
+}
+#kc {
+    color: rgb(200, 48, 48);
+}
+.cta {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.cta a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family:  "Bebas Neue", sans-serif;
+}
+.cta {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.cta1 {
+    background-color: #898c92;
+    padding: 10px;
+    border-radius: 10px; 
+    text-align: center;
+ 
+}
+.cta2 {
+  background-color: #898c92;
+    padding: 10px;
+    border-radius: 10px; 
+    text-align: center;
+}
+.cta a:hover {
+    background-color: #5e6065;
+    
+}
