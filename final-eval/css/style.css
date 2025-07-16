@@ -26,7 +26,6 @@ img {
     font-family:  "Bebas Neue", sans-serif;
     padding-top: 25px;
     color: #f9e506e9;
- 
 }
 #time {
     color: #eea24ae9;
@@ -119,19 +118,22 @@ img {
     background-color: #5e6065;
     
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 480px) {
     #cb h2 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     border-bottom: 10px solid white;
     border-top: 10px solid white;
     border-image: linear-gradient(to right,rgb(244, 125, 35), grey,rgb(29, 29, 87), white) 1; 
 }
 #kc h2 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     border-bottom: 10px solid white;
     border-top: 10px solid white;
     border-image: linear-gradient(to right,white,rgb(200, 48, 48)) 1; 
+}
+#event{
+    font-size: 40px;
 }
 }
