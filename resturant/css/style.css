@@ -212,16 +212,12 @@ h2 {
     padding: 20px;
     border:#c2c4ac solid 5px;
 }
-#chick h2
 #chick h2 {
-    color: white;
-    background-color: #000000;
-    display: flex;
-    align-items: center;
+    text-align: center;
     font-size: 50px;
 }
 #chick img {
-    width: 80vh;
+    width: 100%;
     height: 80vh;
 }
 #chick {
@@ -265,14 +261,13 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-    #navbar {
-          flex-direction: column;
+    #dropdown-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
     img {
         width: 100%;
-    }
-    #footer{
-        flex-direction: column;
     }
     #hero{
     background-image: url(../images/homefromhome.webp);
@@ -287,10 +282,32 @@ li {
     position: relative;
     font-size: 10px;
     font-family: serif;
-}
+    }   
     .sbs.two {
         flex-direction: column;
     }
-    
-    
+    .sbs .sideitem {
+        position: absolute;
+        width: 90%;
+        max-width: 1280px;
+        transform: translateY(-50%) translateX(-50%);
+    }
+    #footer {
+        background-color: #000000;
+        padding: 5px;
+    }
+    #foot {
+        flex-direction: column;
+        align-items: center ;
+         gap: 20px;
+    }
+    #chick {
+        grid-template-columns: 1fr;
+    }
+    #lettuce {
+        border:#c2c4ac solid 5px;
+        padding: 10px;
+        text-align: center;
+    }
+   
 }
